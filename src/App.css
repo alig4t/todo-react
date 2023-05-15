@@ -38,3 +38,16 @@
 }
 
 
+.todo-add-btn:hover{
+  background-color: #eee;
+  transition: all linear 0.2s;
+}
+
+.todo-del-icon{
+  cursor: pointer;
+}
+
+.todo-del-icon:hover > i{
+   color: crimson;
+   transition: all ease 0.2s;
+}
