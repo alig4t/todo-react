@@ -4,8 +4,8 @@ import Todo from "./Todo";
 
 const TodoList = (props) => {
     
-    let list = props.list.map((item)=>{
-        return <Todo title={item.title} id={item.id} key={item.id} />
+    let list = props.list.map((item,index)=>{
+        return <Todo title={item} id={index} key={index} delete={()=>props.del(index)} />
     })
 
     return (
