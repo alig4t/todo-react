@@ -5,9 +5,7 @@ const Todo = (props) => {
                 <div class="card-body d-flex justify-content-between p-0">
                     <div className="p-3">
                         <h5 className="text-start">{props.title}</h5>
-                        <h6 className="text-start">{props.id}</h6>
-                        <p className="text-start m-0 text-justify">This is some text withiis is some text within is is some text within is is some text within is is some text within n a card body.</p>
-
+                        {/* <p className="text-start m-0 font11"></p> */}
                     </div>
                     <span className="h-100 align-self-center p-3 todo-del-icon" onClick={props.delete}>
                         <i class="fa fa-trash" aria-hidden="true"></i>

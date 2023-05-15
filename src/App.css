@@ -37,6 +37,10 @@
   }
 }
 
+.font11{
+  font-size: 11px;
+  color: #8f8f8f;
+}
 
 .todo-add-btn:hover{
   background-color: #eee;
